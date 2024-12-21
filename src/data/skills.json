@@ -1,0 +1,17 @@
+[
+  
+  
+    {
+        "title":"Bootstrap",
+        "imageSrc":"skills/bootstrap.png"
+    },
+    {
+        "title":"PHP",
+        "imageSrc":"skills/php.png"
+    },
+    {
+        "title":"Mysql",
+        "imageSrc":"skills/mysql.png"
+    }
+   
+]

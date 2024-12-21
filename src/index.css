@@ -1,0 +1,12 @@
+/* targeting all elements in the web page */
+*{
+   box-sizing: border-box;  /* border is to be considered while calsulating the width and height of the object */
+    margin:0;
+    padding:0;
+    /* font-family: "Outfit", Arial, Helvetica, sans-serif; */
+    font-family: Open Sans, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}

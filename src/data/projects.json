@@ -1,0 +1,26 @@
+[
+    {
+        "title":"StayEase - Online Hotel Room Booking Website ",
+        "imageSrc":"projects/house.jpg",
+        "description":"An online hotel room booking website for a specific hotel. Users could book and unbook rooms if needed and view detailed billing information.",
+        "skills":["PHP","Mysql","Bootstrap","HTML","CSS"],
+        "demo":"https://theparadiseroombooking.000webhostapp.com/",
+        "source":"https://github.com/pragyasingh-29/The-Paradise"
+    },
+    {
+        "title":"NestQuest - Real Estate Property Portal ",
+        "imageSrc":"projects/property.jpg",
+        "description":"A comprehensive real estate website where users can buy, sell, or rent properties.Implemented robust client-side and server-side validation techniques. ",
+        "skills":["Ejs","Javascript","Express JS","Node JS", "MongoDB"],
+        "demo":"https://www.google.com",
+        "source":"https://github.com/pragyasingh-29/Air-BNB"
+    },
+    {
+        "title":"Easy Ride - Car Rental Agency Website",
+        "imageSrc":"projects/car.jpg",
+        "description":"An end-to-end web application for car rental services.Enabled customer registration, information organization, car browsing, and booking.",
+        "skills":["Bootstrap","PHP","Mysql"],
+        "demo":"https://www.google.com",
+        "source":"https://github.com/pragyasingh-29/Car-Rental"
+    }
+]

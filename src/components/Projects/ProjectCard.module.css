@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.container{
+    display:flex;
+    flex-direction: column;
+    border-radius:14px;
+    padding:18px 28px;
+    width: 40%;
+    /* margin-right: 10vw; */
+    background-color:rgb(12, 12, 12);
+    border-top: 2px solid #19376d;;
+    border-bottom:3px solid lightseagreen;
+    border-right:3px solid lightseagreen;
+    border-left: 2px solid #19376d;;
+}
+
+.image{
+    margin-bottom: 26px;
+    width:94%;
+    height:220px;
+    border-radius: 13px;
+}
+
+.title{
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.description{
+    margin-top:6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:29px;
+    margin-bottom:9px;
+    color:lightslategray;
+
+}
+
+.skills{
+    width:100%;
+    margin-top:14px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:8px;
+    list-style:none;
+}
+
+.skill{
+    font-size:15px;
+    font-weight:400;
+    border-radius:10px;
+    background:#fff;
+    color:black;
+    padding:6px 25px;
+}
+
+.links{
+    width:100%;
+    margin-top:28px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.link{
+    text-decoration: none;
+    color:var(--color-text);
+    font-size:20px;
+    font-weight:500;
+    border-radius:5px;
+    background: var(--color-primary);
+    padding:6px 26px;
+    margin-bottom:20px;
+}
+
+
+@media screen and (max-width:926px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        margin-right:20px;
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+    }
+
+    .image{
+        width:90%;
+        height:215px;
+    }
+    .skills{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media  screen and  (max-width: 926px){
+    .container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:95%;
+        height:700px;  
+        padding:20px 30px;
+    }
+
+}

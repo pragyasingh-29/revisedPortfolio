@@ -1,0 +1,53 @@
+@import "../../vars.css";
+
+.container{
+    color:var(--color-text);
+    margin-top:100px;
+    margin-left:11%;
+    margin-right:18%;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid green; */
+    margin-bottom:10%;
+}
+
+
+.title{
+    color:var(--color-text);
+    font-size: 35px;
+    font-weight:700;
+    letter-spacing: 1.75px;
+    text-transform:uppercase;
+    margin-bottom:80px;
+    margin-left: 6%;
+}
+
+.content{
+    margin-left:13%;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+
+}
+/* 
+.text{
+    font-size:large;
+    font-weight: 700;
+} */
+
+.text{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    /* border:2px solid red; */
+    
+  }
+
+.slider{
+  /* padding:1rem 2rem; */
+  align-items: center;
+  justify-content: center;
+  margin-top:10px;
+  /* border:2px solid red; */
+  padding-left: 11%;
+}

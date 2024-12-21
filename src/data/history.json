@@ -1,0 +1,18 @@
+[
+    {
+        "role": "PHP Developer (Intern)",
+        "organisation":"Blue Planet InfoSolutions Private Limited",
+        "startDate":"Oct, 2023",
+        "endDate":"June, 2024",
+        "experiences" : ["Integrated a third-party platform, into the organization’s software, streamlining the scheduling process.","Implemented database queries to retrieve and display the data, including image retrieval and display functionalities."],
+        "imageSrc" : "history/google.png"
+    },
+    {
+        "role": "Mern Stack Developer (Trainee)",
+        "organisation":"SSDN Technologies Private Limited",
+        "startDate":"July, 2023",
+        "endDate":"Aug, 2023",
+        "experiences" : ["Created a File Sharing Application that allows users to download file using the provided link.","Utilized Libraries such as Node-mailer, Axios and NodeJS to deliver the working model."],
+        "imageSrc" : "history/microsoft.png"
+    }
+]

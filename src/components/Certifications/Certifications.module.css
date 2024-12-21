@@ -1,0 +1,140 @@
+.container{
+    /* border:2px solid red; */
+    color:white;
+    margin-top:120px;
+    margin-left:10%;
+    margin-right:10%;
+    position: relative;
+
+}
+
+.content{
+    height:70vh;
+    width:40vw;
+    object-fit:cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+.content a{
+    /* top: -32vh;
+    left:14%; */
+    color: white;
+    font-weight: 100;
+    font-size: large;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 14px 27px;
+    border: 2px solid white;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content a:hover{
+    background-color: white;
+    color:black;
+}
+
+.content img{
+    height:auto;
+    width:45vw;
+    border-radius: 44px;
+    opacity: 0.2;
+}
+
+.title{
+    color:var(--color-text);
+    font-size: 35px;
+    font-weight:700;
+    letter-spacing: 1.75px;
+    text-transform:uppercase;
+    margin-bottom:90px;
+    margin-left: 6%;
+    margin-right:8%;
+    position: relative;
+}
+
+
+@media screen and (max-width:800px){
+    .content img{
+        border-radius:13px;
+        padding: 0;
+        height:auto;
+        width:70vw;
+        margin-top:-40px;
+
+    }
+
+    .content a{
+        padding: 9px 14px;
+        font-size: small;
+    }
+
+    .content{
+        margin-top:0;
+        height:70vh;
+        width:60vw;
+        margin-bottom:0px;
+        margin-top:3%;
+    }
+
+    .container{
+        margin-top:80px;
+        margin-left:3%;
+        margin-right:3%;
+    }
+
+}
+
+@media screen and (max-width:608px){
+
+    .title{
+        margin-bottom:48px;
+
+    }
+
+    .content{
+        margin-top:-10vh;
+    }
+
+    .container{
+        margin-bottom:0;
+    }
+
+
+}
+
+@media screen and (max-width:433px){
+
+    .title{
+        margin-bottom:25px;
+
+    }
+
+    .content{
+        margin-top:-5vh;
+    }
+
+    .container{
+        margin-bottom:0;
+    }
+
+    .content img{
+        height:auto;
+        width:70vw;
+        margin-top:-80px;
+
+    }
+
+
+
+}
